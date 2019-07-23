@@ -28,9 +28,10 @@ Use this to test the app. Runs both client and server in development mode.
 - `What is my bank balance?`
 - `What are my nodes?`
 - `What is my budget?`
+- `What is my current budget?`
 - `Set Budget to $XXXX.XX`
 - `How much did I spend this month?` 
-- `How much did I spend on <NODE_NICKNAME>`
+- `How much did I spend on <NODE_NICKNAME> ("credit card")`
 - `What is my balance?`
 - `What are my savings?`
 - `What are my checkings?`
