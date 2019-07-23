@@ -2,7 +2,7 @@
 
 This is a simple budget app with the Synapse API, using Synapse's Node.js library.
 
-## To get started:
+## Install Dependencies:
 
 Have `npm` installed.
 
@@ -18,7 +18,7 @@ After installing all necessary dependencies, go back to the root folder:
 
 `cd ..`
 
-## To test the app:
+## Test the app:
 
 ### `npm run dev`
 
