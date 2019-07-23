@@ -1,0 +1,25 @@
+{
+  "name": "synapse-real",
+  "version": "0.0.0",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "concurrently": "^4.1.1",
+    "express": "^4.17.1",
+    "jsencrypt": "^3.0.0-rc.1",
+    "lodash": "^4.17.14",
+    "node-jsencrypt": "^1.0.0",
+    "react-redux": "^7.1.0",
+    "request": "^2.88.0",
+    "synapsenode": "^1.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
