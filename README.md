@@ -1,6 +1,6 @@
 # SynapseFI-with-React-Redux
 
-This is a simple Cleo clone built with the Synapse API, specifically using Synapse's Node.js library.
+This is a simple budget app with the Synapse API, using Synapse's Node.js library.
 
 ## To get started:
 
@@ -33,6 +33,9 @@ Use this to test the app. Runs both client and server in development mode.
 - `Set Budget to $XXXX.XX`
 - `How much did I spend this month?` 
 - `How much did I spend on <NODE_NICKNAME>`
+- `What is my balance?`
+- `What are my savings?`
+- `What are my checkings?`
 
 
 If you want to run client or server separately:
@@ -48,5 +51,3 @@ The page will reload if you make edits.
 Runs the server code at [http://localhost:5000](http://localhost:5000).
 
 Server will reload if you make edits.
-
-This project template was built with [Create React App](https://github.com/facebookincubator/create-react-app), which provides a simple way to start React projects with no build configuration needed.
