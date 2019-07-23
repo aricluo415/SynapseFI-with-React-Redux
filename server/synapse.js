@@ -279,5 +279,5 @@ exports.getMessage = getMessage = async function(question1) {
     response = await getTotalBalance();
     return { answer: response };
   }
-  return { answer: "Can't Understand " };
+  return { answer: "" };
 };
