@@ -6,13 +6,10 @@ import "./messages.css";
 class Messages extends Component {
   componentWillReceiveProps(nextProps) {
     if (nextProps.newMessage) {
-      console.log("Message.js componentWillRecieve", nextProps);
       this.props.messages.push(nextProps.newMessage);
     }
   }
-  componentDidUpdate(prevProps) {
-    console.log("ComponentDidUpdate messages.js", prevProps);
-  }
+
   render() {
     const messages = this.props.messages.map((mes, index) => {
       return (

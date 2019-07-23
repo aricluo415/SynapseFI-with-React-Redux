@@ -15,12 +15,6 @@ class PostForm extends Component {
     this.onChange = this.onChange.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
   }
-  componentWillReceiveProps(nextProps) {
-    console.log("receive props", nextProps);
-  }
-  componentDidUpdate(prevProps) {
-    console.log("componentDidUpdate messageForm.js", prevProps);
-  }
   onChange(e) {
     this.setState({ [e.target.name]: e.target.value });
   }
