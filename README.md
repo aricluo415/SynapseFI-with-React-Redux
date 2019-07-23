@@ -4,9 +4,7 @@ This is a simple budget app with the Synapse API, using Synapse's Node.js librar
 
 ## To get started:
 
-Please have `npm` installed.
-
-Now we need to install all necessary dependencies for the app to work.
+Have `npm` installed.
 
 In the project directory, please run:
 
@@ -16,7 +14,7 @@ and then run:
 
 `cd client && npm i`
 
-After installing all necessary dependencies, switch back to the root folder:
+After installing all necessary dependencies, go back to the root folder:
 
 `cd ..`
 
