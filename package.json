@@ -7,17 +7,26 @@
         "dev": "node ./server/server.js",
         "server": "node ./server/server.js",
         "client": "npm start --prefix client",
-        "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+        "start": "react-scripts start",
+        "build": "react-scripts build", 
+        "heroku-postbuild": "cd client && npm install && npm run build"
     },
     "dependencies": {
+        "react": "^16.2.0",
+        "react-dom": "^16.14.0",
+        "react-redux": "^5.0.7",
+        "react-scripts": "1.1.1",
+        "redux": "^3.7.2",
+        "redux-thunk": "^2.2.0",
         "concurrently": "^4.1.1",
         "express": "^4.17.1",
         "jsencrypt": "^3.0.0-rc.1",
         "node-jsencrypt": "^1.0.0",
-        "react-redux": "^7.1.0",
+        "start": "^5.1.0",
         "synapsenode": "^1.2.2"
     },
     "devDependencies": {
         "nodemon": "^1.19.1"
     }
+
 }
