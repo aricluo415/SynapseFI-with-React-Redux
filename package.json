@@ -19,7 +19,7 @@
         "redux": "^3.7.2",
         "redux-thunk": "^2.2.0",
         "concurrently": "^4.1.1",
-        "express": "^4.17.1",
+        "express": "^4.17.3",
         "jsencrypt": "^3.0.0-rc.1",
         "node-jsencrypt": "^1.0.0",
         "start": "^5.1.0",
